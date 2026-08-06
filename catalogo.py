@@ -1,0 +1,1 @@
+# Catálogo com filme, álbum, personagem, figurinhas.
