@@ -26,6 +26,10 @@ def cadastrar_figurinha(filme, numero, personagem):
     filme["figurinhas"].append(figurinha)
     return figurinha
 
+def cadastrar_pacote(fig1, fig2, fig3):
+    pacote = [fig1, fig2, fig3]
+    return pacote
+
 def listar_filmes():
     for indice, filme in enumerate(filmes):
         print(f"{indice + 1} - {filme['titulo']}")

@@ -8,7 +8,8 @@ def calcular_desconto(quantidade_pacotes):
     else:
         return 0
     
-def realizar_venda(filme, quantidade_albuns, quantidade_pacotes):
+def realizar_venda(filme, quantidade_albuns, pacotes):
+    quantidade_pacotes = len(pacotes)
     total_albuns = quantidade_albuns * filme['preco_album']
     total_pacotes = quantidade_pacotes * filme['preco_pacote']
 
